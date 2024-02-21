@@ -1,0 +1,22 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+
+.container{
+background-color: aquamarine;
+display: flex;
+width: 100vw;
+height: 100vh;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.form{
+background-color: #fff;
+width: 760px;
+height:442px ;
+border-radius: 20px;
+}
