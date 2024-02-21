@@ -20,3 +20,22 @@ width: 760px;
 height:442px ;
 border-radius: 20px;
 }
+
+.formleft{
+width: 380px;
+height: 221px;
+padding: 40px;
+}
+
+.bill input{
+background-color:#f3f8fb ;
+margin-top: 10px;
+padding: 10px 60px ;
+border: none;
+
+}
+.bill input::placeholder{
+font-size: 20px;
+padding-left: 170px;
+
+}
