@@ -4,7 +4,7 @@ padding: 0%;
 }
 
 .container{
-background-color: aquamarine;
+background-color: #c5e4e7;
 display: flex;
 width: 100vw;
 height: 100vh;
@@ -30,12 +30,22 @@ padding: 40px;
 .bill input{
 background-color:#f3f8fb ;
 margin-top: 10px;
-padding: 10px 60px ;
+padding: 10px 10px 10px 120px;
 border: none;
+border-radius: 10px;
+text-align: end;
 
 }
 .bill input::placeholder{
 font-size: 20px;
-padding-left: 170px;
+padding-left: 150px;
+
+}
+
+.bill i{
+position: relative;
+right: 280px;
+color: #a4b8b9;
+
 
 }
