@@ -135,7 +135,8 @@ padding: 43px;
 
 
 
-.formright .container .tipamount{
+.formright .container .tipamount , 
+.formright .container .totaltotal{
 
 display: flex;
 justify-content: space-between;
@@ -151,7 +152,7 @@ font-size: 25px;
 
 }
 
-.tip h3{
+.tip h3 , .total h3{
 
 color: #fff;
 
@@ -160,6 +161,19 @@ color: #fff;
 
 .tip p{
 
+color: rgba(255, 255, 255, 0.5);
+
+}
+
+
+.totaltotal{
+
+margin-top: 40px;
+
+
+}
+
+.total p{
 color: rgba(255, 255, 255, 0.5);
 
 }
