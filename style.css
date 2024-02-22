@@ -12,14 +12,15 @@ font-family: Arial, Helvetica, sans-serif;
   --input-color:#f3f8fb;
   --percentage-div:#004748;
   --i-color:#adc1c2;
-  
+  --form-right:#004748;
+  --dollar-00:#29c1ac;
 }
 
 
 /******************************/
 
 
-.container{
+.m-container{
 /* background-color: #c5e4e7; */
 background-color: var(--bg-color);
 display: flex;
@@ -31,7 +32,7 @@ align-items: center;
 
 }
 
-.container .splitter{
+.m-container .splitter{
   margin-bottom: 50px;
   letter-spacing: 5px;
 }
@@ -109,9 +110,56 @@ font-size: 19px;
 
   }
  
+  /***********************/
   
+
+.formright{
+  position: relative;
+width: 48%;
+height: 55vh;
+background-color: var(--form-right);
+margin-left: 360px;
+bottom: 200px;
+border-radius: 20px;
+}
+
+.formright .container{
+padding: 43px;
+
+
+
+
+}
+
+
+
+
+
+.formright .container .tipamount{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
   
- 
+
+}
+
+.numbers{
+color: var(--dollar-00);
+font-size: 25px;
 
 
+}
 
+.tip h3{
+
+color: #fff;
+
+
+}
+
+.tip p{
+
+color: rgba(255, 255, 255, 0.5);
+
+}
