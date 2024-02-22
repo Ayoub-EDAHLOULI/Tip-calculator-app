@@ -1,6 +1,8 @@
 *{
 margin: 0%;
 padding: 0%;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
@@ -46,6 +48,46 @@ padding-left: 150px;
 position: relative;
 right: 280px;
 color: #a4b8b9;
-
-
 }
+
+  .percentage-parent-div {
+    margin: 32px 0px;
+    width: 100%;
+  }
+  
+   .percentage-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+    margin-top: 10px;
+  } 
+  
+  .percentage-div > * {
+    background: #004748;
+    height: 48px;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  #Custom{
+background-color:#f3f8fb;
+color:#4e6e6d ;
+
+  }
+  
+  .percentage-parent-div .header h1{
+font-size: 19px;
+
+
+
+  }
+ 
+  
+  
+ 
+
+
+
