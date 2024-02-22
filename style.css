@@ -5,8 +5,23 @@ box-sizing: border-box;
 font-family: Arial, Helvetica, sans-serif;
 }
 
+/***********ROOT***************/
+
+:root{
+  --bg-color:#c5e4e7;
+  --input-color:#f3f8fb;
+  --percentage-div:#004748;
+  --i-color:#adc1c2;
+  
+}
+
+
+/******************************/
+
+
 .container{
-background-color: #c5e4e7;
+/* background-color: #c5e4e7; */
+background-color: var(--bg-color);
 display: flex;
 width: 100vw;
 height: 100vh;
@@ -14,6 +29,11 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 
+}
+
+.container .splitter{
+  margin-bottom: 50px;
+  letter-spacing: 5px;
 }
 
 .form{
@@ -29,8 +49,8 @@ height: 221px;
 padding: 40px;
 }
 
-.bill input{
-background-color:#f3f8fb ;
+.bill input, .nop input{
+background-color: var(--input-color);
 margin-top: 10px;
 padding: 10px 10px 10px 120px;
 border: none;
@@ -38,20 +58,24 @@ border-radius: 10px;
 text-align: end;
 
 }
-.bill input::placeholder{
+.bill input::placeholder,
+.nop input::placeholder{
 font-size: 20px;
 padding-left: 150px;
 
 }
 
-.bill i{
+.bill i , .nop i{
+
 position: relative;
-right: 280px;
-color: #a4b8b9;
+left: 10px;
+bottom: 25px;
+color: var(--i-color);
 }
 
   .percentage-parent-div {
-    margin: 32px 0px;
+    margin-top: 22px;
+    margin-bottom: 40px;
     width: 100%;
   }
   
@@ -64,7 +88,7 @@ color: #a4b8b9;
   } 
   
   .percentage-div > * {
-    background: #004748;
+    background-color: var(--percentage-div);
     height: 48px;
     color: white;
     font-size: 20px;
